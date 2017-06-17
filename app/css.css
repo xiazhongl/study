@@ -1,7 +1,12 @@
-.h1{
-    color:#0000ff;
-    position: relative;
-   }
-.h2{
+
+.a{
+    background: #f00;
+    float: right;
+    width: 500px;
     
+}
+.b{
+    background:gold;
+    float: left;
+    width: 400px;
 }
