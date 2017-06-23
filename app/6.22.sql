@@ -3,8 +3,6 @@ SELECT `gradeName` FROM `grade` (
 
 );
 
-INSERT INTO `hos_house`(hmid)
-
 CREATE TABLE student2(
  id  INT(4),
  namea CHAR(5),
