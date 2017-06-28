@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd 
+
+">
+<html xmlns="http://www.w3.org/1999/xhtml 
+
+">
+<head>
+<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<script>
+     function Flower(){
+		 
+		 }
+		 Flower.prototype.name="郎晓明";
+		 Flower.prototype.age=38;
+		 Flower.prototype.job="中国内地男演员，歌手";
+		 Flower.prototype.address="中国北京海定区";
+		 Flower.prototype.showName=function(){
+			   alert(this.name);
+			 }
+		 
+		 var flower1=new Flower()
+		 flower1.showName();
+		 
+		  var flower2=new Flower();
+		 flower2.showName();
+</script>
+</body>
+<ml>
+
+
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd 
+
+">
+<html xmlns="http://www.w3.org/1999/xhtml 
+
+">
+<head>
+<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+<title>上机2  构造函数</title>
+</head>
+
+<body>
+<script>
+     function Flower(name,age,job,address){
+		 this.name=name;
+		 this.age=age;
+		 this.job=job;
+		 this.address=address;
+		 this.showName=function(){
+			   alert(this.name);
+			 }
+		 }
+		 var flower1=new Flower("郎晓明",38,"中国内地男演员，歌手","中国北京海定区")
+		 flower1.showName();
+		 
+		 
+		 var flower2=new Flower("狗杰",17,"学生","佛山");
+		 flower2.showName();
+</script>
+</body>
+<ml>
+
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd 
+
+">
+<html xmlns="http://www.w3.org/1999/xhtml 
+
+">
+<head>
+<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+<title>上机1</title>
+</head>
+
+<body>
+<script>
+   var person=new object();
+   person.name="郎晓明";
+   person.age=38;
+   person.job="中国内地男演员，歌手";
+   person.address="中国北京海定区"
+   var str="姓名:"+this.name+"<br/>年龄:"+this.age+"<br/> 工作:"+this.job+"<br/>住址:"+this.addres+"<br/>;
+   document.getElementById("intro").innerHTML=str;
+</script>
+</body>
+<ml>
