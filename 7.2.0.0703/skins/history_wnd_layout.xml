@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<StrokeWnd>
+	<Version>1.0</Version>
+	<WinHeight>300</WinHeight>
+	<Layout>
+		<VBoxLayout Name="RootLayout" Background="#FFFFFF" SizePolicy="Spring;Spring">
+			<Space Name="TopPadding" Size="2"/>
+			<HBoxLayout Name="HistroyContent" SizePolicy="Spring;Spring">
+				<QueryBoxList Name="HistoryList" SizePolicy="Spring;Spring" Background="#FFFFFF" ItemBackground="#FFFFFF;#F4F4F4;#F4F4F4;#FFFFFF" ItemTextColor="#2E3033;#919599" ItemFontFamily="微软雅黑" ItemFontSize="12" ItemContemtGap="20" ItemGap="1" ItemPadding="10;0" ItemHeight="26"/>
+				<ScrollBar Name="HistoryScrollBar" SizePolicy="Fix;Spring" Width="10" Type="Vertical" Background="#EFF3F5" BarColor="#D2D6D9;#BDC1C4" Delta="5"/>
+			</HBoxLayout>
+			<TextButton Name="VipHint" SizePolicy="Spring;Fix" Height="30" Visible="FALSE"/>
+		</VBoxLayout>
+	</Layout>
+</StrokeWnd>

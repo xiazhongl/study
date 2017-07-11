@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MiniWnd>
+	<Version>1.0</Version>
+	<WinHeight>65</WinHeight>
+	<WinWidth>330</WinWidth>
+	<Layout>
+		<VBoxLayout Name="RootLayout" SizePolicy="Spring;Spring" Background="#DB3E3E">
+			<HBoxLayout Name="TitlePart" SizePolicy="Spring;Fix" Height="28">
+				<Space Size="10"/>
+				<IconButton Name="MiniLogo" Background="#DB3E3E" Width="30" Height="16" Icon="noImg;noImg;noImg;qclogo.png" Enabled="False"/>
+				<Space Size="5"/>
+				<Separator Height="12" Width="1" Background="#FFFFFF"/>
+				<Space Size="5"/>
+				<TextButton Name="MiniTitle" Text="mini" SizePolicy="Auto;Auto" TextColor="#FFFFFF;#FFFFFF;#FFFFFF;#FFFFFF" FontFamily="微软雅黑" FontSize="12" Enabled="False"/>
+				<Space Size="15"/>
+				<TextButton Name="LangSelector" Text="@LangEng" SizePolicy="Auto;Auto" TextColor="#FFFFFF;#FFFFFF;#FFFFFF;#FFFFFF" FontFamily="微软雅黑" FontSize="12"/>
+				<Space Size="2"/>
+				<IconButton Name="LangDrop" Background="#DB3E3E" Icon="mini-drop.png;mini-drop.png;mini-drop.png;mini-drop.png" Width="16" Height="16" IconWidth="13" IconHeight="8" Linkage="LangSelector"/>
+				<Spring/>
+				<FlipIconButton Name="MiniNail" Background="#DB3E3E" Flip="False" FlipIcon="qcfix.png;qcfix-hover.png;qcfix-hover.png;qcfix.png" Icon="qcsprig.png;qcsprig-hover.png;qcsprig-hover.png;qcsprig.png" Width="16" Height="16"/>
+				<Space Size="15"/>
+				<IconButton Name="ShowMainWnd" Background="#DB3E3E" Width="16" Height="16" IconWidth="13" IconHeight="13" Icon="maximum.png;maximum-hover.png;maximum-hover.png;maximum.png"/>
+				<Space Size="15"/>
+				<IconButton Name="MiniClose" Background="#DB3E3E" Icon="qcclose.png;qcclose-hover.png;qcclose-hover.png;qcclose.png" Width="16" Height="16"/>
+				<Space Size="15"/>
+			</HBoxLayout>
+			<HBoxLayout Name="InputPart" SizePolicy="Spring;Spring">
+				<Space Name="LeftFrame" Size="1"/>
+				<VBoxLayout SizePolicy="Spring;Spring">
+					<HBoxLayout SizePolicy="Spring;Spring"  Background="#FFFFFF">
+						<Space Size="13"/>
+						<InputBox Name="MiniInput" SizePolicy="Spring;Fix" Height="30" MaxTextNum="256" Background="#00FFFFFF" BackUnfocus="#00FFFFFF" TextColor="#002E3033" DefaultText="@InputDefaultText" FontFamily="微软雅黑" FontSize="12"/>
+						<Space Size="5"/>
+						<IconButton Name="MiniSearch" SizePolicy="Fix;Fix" Background="#FFFFFF" Width="17" Height="30" IconWidth="17" IconHeight="17" Icon="search.png;search.png;search.png;search.png"/>
+						<Space Size="13"/>
+					</HBoxLayout>
+					<Space Name="BottomFrame" Size="1"/>
+				</VBoxLayout>
+				<Space Name="RightFrame" Size="1"/>
+			</HBoxLayout>
+			<CefWnd Name="MiniCefWnd" SizePolicy="Auto;Fix" Buddy="InputPart" HasShadow="True" Float="Bottom" Style="Popup" Width="330" Height="0" WndClass="YdMiniCefWnd" Visible="False" MinWidth="330" MinHeight="10" StartPage="frame://mini.html"/>
+			<LangSelect Name="LangSelWnd" SizePolicy="Fix;Fix" Buddy="LangSelector" Float="Bottom" Style="Popup" Distance = "10" Extend="15;0" Height="72" Width="335" Layout="lang_select_layout.xml" Visible="False"/>
+		</VBoxLayout>
+	</Layout>
+</MiniWnd>

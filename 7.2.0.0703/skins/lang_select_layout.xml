@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageSelectWnd>
+	<Version>1.0</Version>
+	<WinHeight>72</WinHeight>
+	<WinWidth>335</WinWidth>
+	<Layout>
+		<VBoxLayout SizePolicy="Spring;Spring" Background="#F9FBFC" RenderOrder="2">
+			<Spring/>
+			<HBoxLayout Name="MoseUsedList" SizePolicy="Spring;Fix" Height="22">
+				<Spring/>
+				<TextButton Name="en" ExcluseId="0" Width="72" Height="22" Background="#F9FBFC" Text="@LangEng" TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#F44C4C;#F44C4C;#2E3033"/>
+				<Space Size="15"/>
+				<TextButton Name="fr" ExcluseId="0" Width="72" Height="22" Background="#F9FBFC" Text="@LangFr" TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#F44C4C;#F44C4C;#2E3033"/>
+				<Space Size="15"/>
+				<TextButton Name="ko"  ExcluseId="0" Width="72" Height="22" Background="#F9FBFC" Text="@LangKo"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#F44C4C;#F44C4C;#2E3033"/>
+				<Space Size="15"/>
+				<TextButton Name="ja"  ExcluseId="0" Width="72" Height="22" Background="#F9FBFC" Text="@LangJap"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#F44C4C;#F44C4C;#2E3033"/>
+				<Spring/>
+			</HBoxLayout>
+			<Space Size="10"/>
+			<HBoxLayout Name="SecondaryUsedList" SizePolicy="Spring;Fix" Height="22">
+				<Spring/>
+				<TextButton Name="de" ExcluseId="0" Width="72" Height="22" Background="#F9FBFC" Text="@LangGmn" TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#F44C4C;#F44C4C;#2E3033"/>
+				<Space Size="15"/>
+				<TextButton Name="ru" ExcluseId="0" Width="72" Height="22" Background="#F9FBFC" Text="@LangRss" TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#F44C4C;#F44C4C;#2E3033"/>
+				<Space Size="15"/>
+				<TextButton Name="pt" ExcluseId="0" Width="72" Height="22" Background="#F9FBFC" Text="@LangPtg" TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#F44C4C;#F44C4C;#2E3033"/>
+				<Space Size="15"/>
+				<TextButton Name="es" ExcluseId="0" Width="72" Height="22" Background="#F9FBFC" Text="@LangSpn" TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#F44C4C;#F44C4C;#2E3033"/>
+				<Spring/>
+			</HBoxLayout>
+			<Spring/>
+		</VBoxLayout>
+	</Layout>
+</LanguageSelectWnd>

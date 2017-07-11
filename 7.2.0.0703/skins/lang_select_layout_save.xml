@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageSelectWnd>
+	<Version>1.0</Version>
+	<WinHeight>282</WinHeight>
+	<WinWidth>336</WinWidth>
+	<Layout>
+		<VBoxLayout Name="RootLayout" SizePolicy="Spring;Spring">
+			<HBoxLayout Name="TopBorder" SizePolicy="Spring;Fix" Height=3>
+				<IconButton Name="TopLeftCorner" SizePolicy="Fix;Fix" Width="3" Height="3" Icon="noImg;noImg;noImg;lang_tl.png" Enabled="False"/>
+				<IconButton Name="BorderTop" SizePolicy="Spring;Fix" Height="3" Background="#ECEEF1" Enabled="False"/>
+				<IconButton Name="TopRightCorner" SizePolicy="Fix;Fix" Width="3" Height="3" Icon="noImg;noImg;noImg;lang_tr.png" Enabled="False"/>
+			</HBoxLayout>
+			<VBoxLayout SizePolicy="Spring;Spring" Background="#F9FBFC">
+				<TextButton Name="Title" SizePolicy="Spring;Fix" Height="22" Background="#ECEEF1" Text="@LangMostUsed" TextAlign="Left" TextMargin="15" FontFamily="微软雅黑" FontSize="10" TextColor="#0;#0;#0;#919599" Enabled="False"/>
+				<HBoxLayout Name="MoseUsedList" SizePolicy="Spring;Fix" Height="42">
+					<Spring/>
+					<TextButton Name="eng" ExcluseId="0" Width="72" Height="22" Text="@LangEng" TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+					<Space Size="15"/>
+					<TextButton Name="jap" ExcluseId="0" Width="72" Height="22" Text="@LangJap" TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+					<Space Size="15"/>
+					<TextButton Name="fr"  ExcluseId="0" Width="72" Height="22" Text="@LangFr"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+					<Space Size="15"/>
+					<TextButton Name="ko"  ExcluseId="0" Width="72" Height="22" Text="@LangKo"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+					<Spring/>
+				</HBoxLayout>
+				<TextButton Name="MoreLang" SizePolicy="Spring;Fix" Height="25" Background="#ECEEF1" Text="@LangMoreLang" TextAlign="Left" TextMargin="15" FontFamily="微软雅黑" FontSize="10" TextColor="#0;#0;#0;#919599" Enabled="False"/>
+				<VBoxLayout Name="MoreLangList" SizePolicy="Spring;Spring">
+					<Space Size="10px"/>
+					<HBoxLayout SizePolicy="Spring;Fix" Height="22">
+						<Spring/>
+						<TextButton Name="A2G" Width="72" Height="22" Text="ABCDEFG" TextAlign="Left" TextMargin = 12 FontFamily="微软雅黑" FontSize="12" TextColor="#0;#0;#0;#2E3033" Enabled="False"/>
+						<Space Size="15"/>
+						<TextButton Name="arb"  ExcluseId="0" Width="72" Height="22" Text="@LangArb"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="dmk"  ExcluseId="0" Width="72" Height="22" Text="@LangDmk"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="de"  ExcluseId="0" Width="72" Height="22" Text="@LangGmn"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Spring/>
+					</HBoxLayout>
+					<Space Size="3"/>
+					<HBoxLayout SizePolicy="Spring;Fix" Height="22">
+						<Spring/>
+						<Space Size="72"/>
+						<Space Size="15"/>
+						<TextButton Name="ru"  ExcluseId="0" Width="72" Height="22" Text="@LangRss"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="fnn"  ExcluseId="0" Width="72" Height="22" Text="@LangFnn"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<Space Size="72"/>
+						<Spring/>
+					</HBoxLayout>
+					<Space Size="9"/>
+					<HBoxLayout SizePolicy="Spring;Fix" Height="22">
+						<Spring/>
+						<TextButton Name="H2N" Width="72" Height="22" Text="HIJKLMN" TextAlign="Left" TextMargin = 12 FontFamily="微软雅黑" FontSize="12" TextColor="#0;#0;#0;#2E3033" Enabled="False"/>
+						<Space Size="15"/>
+						<TextButton Name="dut"  ExcluseId="0" Width="72" Height="22" Text="@LangDut"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="mly"  ExcluseId="0" Width="72" Height="22" Text="@LangMly"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="bur"  ExcluseId="0" Width="72" Height="22" Text="@LangBrm"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Spring/>
+					<HBoxLayout/>
+					<Space Size="9"/>
+					<HBoxLayout SizePolicy="Spring;Fix" Height="22">
+						<Spring/>
+						<TextButton Name="O2T" Width="72" Height="22" Text="OPQRST" TextAlign="Left" TextMargin = 12 FontFamily="微软雅黑" FontSize="12" TextColor="#0;#0;#0;#2E3033" Enabled="False"/>
+						<Space Size="15"/>
+						<TextButton Name="pt"  ExcluseId="0" Width="72" Height="22" Text="@LangPtg"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="swd"  ExcluseId="0" Width="72" Height="22" Text="@LangSwd"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="tha"  ExcluseId="0" Width="72" Height="22" Text="@LangTha"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Spring/>
+					<HBoxLayout/>
+					<Space Size="9"/>
+					<HBoxLayout SizePolicy="Spring;Fix" Height="22">
+						<Spring/>
+						<TextButton Name="U2Z" Width="72" Height="22" Text="OPQRST" TextAlign="Left" TextMargin = 12 FontFamily="微软雅黑" FontSize="12" TextColor="#0;#0;#0;#2E3033" Enabled="False"/>
+						<Space Size="15"/>
+						<TextButton Name="ukr"  ExcluseId="0" Width="72" Height="22" Text="@LangUkr"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="es"  ExcluseId="0" Width="72" Height="22" Text="@LangSpn"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="grk"  ExcluseId="0" Width="72" Height="22" Text="@LangGrk"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Spring/>
+					<HBoxLayout/>
+					<Space Size="3"/>
+					<HBoxLayout SizePolicy="Spring;Fix" Height="22">
+						<Spring/>
+						<Space Size="72"/>
+						<Space Size="15"/>
+						<TextButton Name="ita"  ExcluseId="0" Width="72" Height="22" Text="@LangIta"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="hnd"  ExcluseId="0" Width="72" Height="22" Text="@LangHnd"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Space Size="15"/>
+						<TextButton Name="vtn"  ExcluseId="0" Width="72" Height="22" Text="@LangVtn"  TextAlign="Left" TextMargin="12" FontFamily="微软雅黑" FontSize="12" TextColor="#2E3033;#FFB4B4;#FFB4B4;#2E3033"/>
+						<Spring/>
+					</HBoxLayout>
+					<Spring/>
+				</VBoxLayout>
+			</VBoxLayout>
+			<HBoxLayout Name="BotBorder" SizePolicy="Fix;Spring" Width=3>
+				<IconButton Name="BotLeftCorner" SizePolicy="Fix;Fix" Width="3" Height="3" Icon="noImg;noImg;noImg;lang_bl.png" Enabled="False"/>
+				<IconButton Name="BorderBot" SizePolicy="Spring;Fix" Width="3" Background="#F9FBFC" Enabled="False"/>
+				<IconButton Name="BotRightCorner" SizePolicy="Fix;Fix" Width="3" Height="3" Icon="noImg;noImg;noImg;lang_br.png" Enabled="False"/>
+			</HBoxLayout>
+		</VBoxLayout>
+	</Layout>
+</LanguageSelectWnd>

@@ -1,0 +1,44 @@
+
+.mian{
+    display: flex;
+    justify-content:center; 
+    background: navy;
+    padding:left;
+    padding: right;
+    margin: auto;
+}
+#one{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: beige;
+}
+.shu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex: 4;
+    background-color:hotpink;
+}
+.man{
+    list-style: none;
+    float: left;
+}
+li{
+    list-style: none;
+
+}
+.tup{
+    float:right;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

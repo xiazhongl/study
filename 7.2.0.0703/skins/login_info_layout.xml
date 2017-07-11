@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LoginInfoWnd>
+	<Version>1.0</Version>
+	<WinHeight>190</WinHeight>
+	<WinWidth>185</WinWidth>
+	<Layout>
+		<VBoxLayout SizePolicy="Spring;Spring" Background="#FFFFFF">
+			<Space Size="15"/>
+			<HBoxLayout SizePolicy="Spring;Fix" Height="40">
+				<Space Size="20"/>
+				<LoginButton Name="Portrait" Background="#FFFFFF" Width="40" Height="40" IconWidth="34" IconHeight="34" DefPortrait="default-portrait.png" Enabled="False"/>
+				<Space Size="20"/>
+				<TextButton Name="UserName" SizePolicy="Spring;Spring" Background="#FFFFFF" TextAlign="Left" Text="@LoginDefaultUserName" FontFamily="微软雅黑" FontSize="12" TextColor="#0;#0;#0;#5F6266" Enabled="False"/>
+				<Space Size="20"/>
+			</HBoxLayout>
+			<Spring/>
+			<Separator SizePolicy="Spring;Fix" Height="1" Background="#DDE0E4"/>
+			<Spring/>
+			<HBoxLayout SizePolicy="Spring;Fix" Height="12">
+				<Space Size="20"/>
+				<TextButton Name="LoginInfoInvest" SizePolicy="Auto;Auto" Text="@LoginInfoInvest" Background="#FFFFFF" TextAlign="Left" FontFamily="微软雅黑" FontSize="12" TextColor="#5F6266;#FFB4B4;#FFB4B4;#5F6266"/>
+				<Spring/>
+			</HBoxLayout>
+			<Space Size="15"/>
+			<HBoxLayout SizePolicy="Spring;Fix" Height="12">
+				<Space Size="20"/>
+				<TextButton Name="LoginInfoFeedback" SizePolicy="Auto;Auto" Text="@LoginInfoFeedback" Background="#FFFFFF" TextAlign="Left" FontFamily="微软雅黑" FontSize="12" TextColor="#5F6266;#FFB4B4;#FFB4B4;#5F6266"/>
+				<Spring/>
+			</HBoxLayout>
+			<Space Size="10"/>
+			<Separator SizePolicy="Spring;Fix" Height="1" Background="#DDE0E4"/>
+			<Space Size="10"/>
+			<HBoxLayout SizePolicy="Spring;Fix" Height="12">
+				<Space Size="20"/>
+				<TextButton Name="LoginInfoOut" SizePolicy="Auto;Auto" Text="@LoginInfoOut" TextAlign="Left" Background="#FFFFFF" FontFamily="微软雅黑" FontSize="12" TextColor="#5F6266;#FFB4B4;#FFB4B4;#5F6266"/>
+				<Spring/>
+			</HBoxLayout>
+			<Space Size="15"/>
+		</VBoxLayout>
+	</Layout>
+</LoginInfoWnd>
