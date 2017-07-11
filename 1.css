@@ -1,0 +1,24 @@
+
+.mian{
+    display: flex;
+    background: navy;
+    padding: 10px;
+}
+.one{
+    float: right;
+    background-color: yellow;
+}
+.two{flex: 1;
+    background-color: lawngreen;
+    padding: 10px;
+}
+.man{
+    float: left;
+}
+li{
+    float: left;
+}
+.shu{
+     flex: 5;
+     padding: 10px;
+}
