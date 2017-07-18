@@ -42,3 +42,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
+footer>li{
+    float: left;
+}
+footer{
+    float: left;
+}
