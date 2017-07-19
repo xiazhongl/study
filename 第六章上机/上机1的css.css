@@ -1,0 +1,52 @@
+body{
+    background-color: #f2f2f2;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.header{
+    z-index: 2;
+    position: relative;
+    line-height: 2.7em;
+    text-align: center;
+    font-size:1.2em;
+    color: #fff;
+    background: #4ccde0;
+}
+.header .back{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5em;
+    height: 2.6em;
+    font-size: 1em;
+    background: url(../image/icon_arr-back.png) center no-repeat;
+    background-size: auto 45%;
+}
+.header .more{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 1em;
+    background: url(../image/icon_arr-more.png) center no-repeat;
+    background-size: auto 40%;
+}
+.trip{
+    background: #fff;
+    height: auto;
+}
+.trip p.tit{
+    text-indent: 18px;
+    line-height: 2.5em;
+    text-align: left;
+    font-size: 1em;
+    border-bottom: #e2e2e2 solid 1px;
+    background: #f2f2f2;
+    color: #999;
+}
