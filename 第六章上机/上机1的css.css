@@ -39,7 +39,7 @@ body{
 }
 .trip{
     background: #fff;
-    height: auto;
+    height: auto; 
 }
 .trip p.tit{
     text-indent: 18px;
